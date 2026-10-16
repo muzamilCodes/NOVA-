@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070914" />
+    <title>NOVA — An Interactive 3D Universe</title>
+    <meta
+      name="description"
+      content="Step into NOVA, a living 3D universe made of light, motion, and a little curiosity."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div id="scene-status" class="scene-status" role="status" aria-live="polite" hidden></div>
+
+    <div id="overlay">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="NOVA home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>NOVA</span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#features">The experience</a>
+          <a href="#how">How it works</a>
+        </nav>
+        <a class="header-link" href="#features">
+          Enter the experience <span aria-hidden="true">↗</span>
+        </a>
+      </header>
+
+      <main id="main">
+        <section id="top" class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="badge"><span class="badge-dot"></span> An experiment in motion</p>
+            <h1 class="title" id="hero-title">NOVA<span class="title-period">.</span></h1>
+            <p class="hero-tagline">A universe, <span>in motion.</span></p>
+            <p class="subtitle">
+              Step into a living world of light and orbit. Take the controls,
+              follow your curiosity, and see what happens when you reach out.
+            </p>
+            <div class="cta-row">
+              <a class="btn primary" href="#features">
+                Explore the universe <span aria-hidden="true">↗</span>
+              </a>
+              <a class="btn ghost" href="#how">How it works</a>
+            </div>
+            <p class="scene-hint">
+              <span class="live-dot" aria-hidden="true"></span>
+              <span>Live scene</span>
+              <span class="hint-divider" aria-hidden="true"></span>
+              Move to steer <span aria-hidden="true">·</span> Click to create
+            </p>
+          </div>
+          <a class="scroll-cue" href="#features">
+            <span class="scroll-cue-line" aria-hidden="true"></span>
+            Scroll to explore
+          </a>
+          <p class="hero-coordinate" aria-hidden="true">A small universe, just for you <span>01 / 03</span></p>
+        </section>
+
+        <section id="features" class="features section-shell" aria-labelledby="features-title">
+          <div class="section-heading reveal">
+            <p class="section-eyebrow">A closer look <span>— 01</span></p>
+            <div class="section-heading-row">
+              <h2 id="features-title">More than a pretty picture.</h2>
+              <p>
+                Every detail is generated in real time. Nothing is pre-rendered;
+                the universe responds as you do.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-grid">
+            <article class="card reveal">
+              <span class="card-index">01</span>
+              <div class="icon icon-orbit" aria-hidden="true"><span></span></div>
+              <h3>Worlds in motion</h3>
+              <p>
+                A living planet ripples at its core while a field of distant
+                stars drifts quietly around it.
+              </p>
+              <span class="card-tag">Procedural animation</span>
+            </article>
+            <article class="card reveal">
+              <span class="card-index">02</span>
+              <div class="icon icon-cursor" aria-hidden="true"><span>↗</span></div>
+              <h3>Your point of view</h3>
+              <p>
+                Nudge the camera with your pointer. Reach out with a click and
+                send a burst of light across the scene.
+              </p>
+              <span class="card-tag">Made to be explored</span>
+            </article>
+            <article class="card reveal">
+              <span class="card-index">03</span>
+              <div class="icon icon-code" aria-hidden="true">&lt;/&gt;</div>
+              <h3>Right in your browser</h3>
+              <p>
+                Built with Three.js and a little mathematics. No account, no
+                plugins, and no build step required.
+              </p>
+              <span class="card-tag">Powered by WebGL</span>
+            </article>
+          </div>
+        </section>
+
+        <section id="how" class="how section-shell" aria-labelledby="how-title">
+          <div class="how-intro reveal">
+            <p class="section-eyebrow">Find your way <span>— 02</span></p>
+            <h2 id="how-title">Three ways to<br /><span>make it yours.</span></h2>
+            <p>
+              No instructions needed. Just a pointer, a little time, and a
+              willingness to play.
+            </p>
+          </div>
+          <ol class="how-steps">
+            <li class="how-step reveal">
+              <span class="step-number">01</span>
+              <div>
+                <h3>Look around</h3>
+                <p>Move your pointer and the camera will gently follow your lead.</p>
+              </div>
+              <span class="step-symbol" aria-hidden="true">↗</span>
+            </li>
+            <li class="how-step reveal">
+              <span class="step-number">02</span>
+              <div>
+                <h3>Make a little noise</h3>
+                <p>Click anywhere to send a luminous burst out into the dark.</p>
+              </div>
+              <span class="step-symbol" aria-hidden="true">✳</span>
+            </li>
+            <li class="how-step reveal">
+              <span class="step-number">03</span>
+              <div>
+                <h3>Stay a while</h3>
+                <p>Scroll down, take it in, and let the universe do its thing.</p>
+              </div>
+              <span class="step-symbol" aria-hidden="true">⌁</span>
+            </li>
+          </ol>
+        </section>
+
+        <section class="closing section-shell reveal" aria-labelledby="closing-title">
+          <div class="closing-orbit" aria-hidden="true"></div>
+          <p class="section-eyebrow">Endless space. One small screen.</p>
+          <h2 id="closing-title">Curiosity looks<br /><span>good on you.</span></h2>
+          <a class="btn primary" href="#top">Back to the beginning <span aria-hidden="true">↑</span></a>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>NOVA</span>
+        </a>
+        <p>A small experiment in light, motion, and the spaces in between.</p>
+        <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
